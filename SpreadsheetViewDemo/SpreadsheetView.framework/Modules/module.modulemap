@@ -1,0 +1,11 @@
+framework module SpreadsheetView {
+  umbrella header "SpreadsheetView.h"
+
+  export *
+  module * { export * }
+}
+
+module SpreadsheetView.Swift {
+    header "SpreadsheetView-Swift.h"
+    requires objc
+}

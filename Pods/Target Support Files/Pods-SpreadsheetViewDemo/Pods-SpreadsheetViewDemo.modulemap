@@ -1,0 +1,6 @@
+framework module Pods_SpreadsheetViewDemo {
+  umbrella header "Pods-SpreadsheetViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
